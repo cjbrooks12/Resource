@@ -1,0 +1,1608 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.20.0-SNAPSHOT"/>
+<link rel="icon" href="http://resource.javiersc.com/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>Resource</title>
+
+
+<meta name="description" content="Resource is a sealed class that allows you to wrap any object based on a state.">
+
+
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.20.0-SNAPSHOT","baseUrl":"http://resource.javiersc.com","environment":"debug","version":"unspecified"};
+</script>
+
+
+
+
+
+<!-- start:debug info -->
+
+<!-- THEME -->
+<!-- Type: Editorial -->
+<!-- Class: com.eden.orchid.editorial.EditorialTheme -->
+
+<!-- PAGE -->
+<!-- Type: classes -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocPage -->
+<!-- Layout: index -->
+<!-- Resolved Layout: templates/layouts/index.peb -->
+<!-- Page Template: kotlindocClass, sourceDocPage, classes, page -->
+<!-- Resolved Page Template: templates/pages/sourceDocPage.peb -->
+
+<!-- RESOURCE -->
+<!-- Class: com.eden.orchid.sourcedoc.page.SourceDocResource -->
+<!-- Source Filename:  -->
+
+<!-- COMPLETE PAGE CONFIGURATION -->
+<script>
+    window.allData = {"reference":{"path":"kotlindoc/resource","baseUrl":"http://resource.javiersc.com","fileName":"com/javiersc/resources/resource/resource","extension":"html","usePrettyUrl":true,"link":"http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource"},"description":"","title":"Resource"};
+</script>
+
+<!-- end:debug info -->
+
+
+
+
+    <!-- start:inject meta-components -->
+    
+        
+            
+        
+    
+    <!-- end:inject meta-components -->
+
+
+
+    <!-- start:inject meta-components -->
+    
+        
+            
+        
+    
+    <!-- end:inject meta-components -->
+
+
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="http://resource.javiersc.com/Editorial/b939398b/assets/css/editorial_main.css"  />
+<link rel="stylesheet" type="text/css" href="http://resource.javiersc.com/Editorial/b939398b/assets/css/editorial_orchidCustomizations.css"  />
+<link rel="stylesheet" type="text/css" href="http://resource.javiersc.com/Editorial/b939398b/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="http://resource.javiersc.com/assets/css/code.css"  />
+<link rel="stylesheet" type="text/css" href="http://resource.javiersc.com/assets/css/orchidSearch.css"  />
+<link rel="stylesheet" type="text/css" href="http://resource.javiersc.com/assets/css/orchidSourceDoc.css"  />
+<!-- end:inject styles -->
+
+</head>
+<body class="is-loading">
+
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            
+                <header id="header">
+    <a href="http://resource.javiersc.com" class="logo">Resource</a>
+    <ul class="icons">
+    
+    
+        <li>
+            <a href="https://github.com/JavierSegoviaCordoba/Resource" class="icon fa-github">
+                <span class="label">github</span>
+            </a>
+        </li>
+    
+    
+    </ul>
+</header>
+            
+            
+            
+            
+                <section id="pageContent">
+                    <header class="major"><h2>Resource</h2></header>
+                    <article>
+                        
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div class="sourcedoc-page orchid-sourcedoc content">
+  
+<div class="sourcedoc-section section-root section-level-1" id="Resource">
+
+
+  <h1 class="sourcedoc-section section-name">Resource</h1>
+  
+    <div class="sourcedoc-section section-element" id="78cebb53286573eb2bdabfe01d8c493f6357289e">
+      
+      <p class="sourcedoc-section section-signature">
+        <code>sealed class <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a></code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>This class lets wrap any thing and add an associated state:
+Loading, Success, Error and Cache</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="fields">
+
+
+  <p class="sourcedoc-section section-name"><strong>Fields</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="4bac72d6ca0044c8aacf427d7dee09718c67c87e">
+        <td class="sourcedoc-section section-signature">
+          <code>val isLoading: Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="511ea175889974ad1cf919cbf28fb35ba63b7f2e">
+        <td class="sourcedoc-section section-signature">
+          <code>val isSuccess: Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="181cd1e8cc2c1a47cdaec3e58e753ef090926c1a">
+        <td class="sourcedoc-section section-signature">
+          <code>val isError: Boolean</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-2" id="extensions">
+
+
+  <h2 class="sourcedoc-section section-name">Extensions</h2>
+  
+    <div class="sourcedoc-section section-element" id="47cde63ff8b0732fc57ae00f2e76000080bd76fa">
+      
+      <h3 class="sourcedoc-section element-name">map</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>inline fun &lt;R, R2, E, E2&gt; <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;.map(data: (R)-&gt;R2, error: (E)-&gt;E2): <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R2, E2&gt;</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Map any Resource to another Resource.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="c199cffbfa8f283cfc24b88f6870b2f4a7b59617">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ccf862f321a07eee012eff003f79b5773426b24c">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="808226c9851cc8df76b29d2473e9991fddbdf3d8">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f883a249e814c1524a2f8af259bbd18c98756dae">
+        <td class="sourcedoc-section section-signature">
+          <code>data: (R)-&gt;R2</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>to be mapped to R2.</p>
+
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="f2bd73a228c00f71d7f63514cb60e0cd2ef9a74d">
+        <td class="sourcedoc-section section-signature">
+          <code>error: (E)-&gt;E2</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        <p>to be mapped to E2.</p>
+
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f6a585c23aafdef8ed5b280df1680978638262b2">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="05087891041fcdbfd15b784d74075bc9ffbb9f2b">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R2, E2&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="c21d621d9cdf79634fc36dd50d5b9cdfadc80a8d">
+      
+      <h3 class="sourcedoc-section element-name">folder</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>inline fun &lt;R, E&gt; <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;.folder(block: <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource/folder">Folder</a>&lt;R, E&gt;.()-&gt;Unit)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Extension function to fold a Resource.
+Check Resource.Folder inner class to see all the available options.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="85e5135381aba5fce80e7023893c9d5132049dd6">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ccf862f321a07eee012eff003f79b5773426b24c">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="0bd5f86dc57e0b86837df5ba5840f5b33eb7382f">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="206fd661bfbe5b7959c9405d3dcea8890b070ba1">
+        <td class="sourcedoc-section section-signature">
+          <code>block: <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource/folder">Folder</a>&lt;R, E&gt;.()-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="1c2faa8c88ced422c6ae3f5e82b5a1b9778e50ac">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="02408e30b7f0aa98899606aa2a54d6b5690657d8">
+      
+      <h3 class="sourcedoc-section element-name">fold</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>inline fun &lt;R, E&gt; <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;.fold(noinline loading: ()-&gt;Unit, noinline noLoading: ()-&gt;Unit, noinline success: (R)-&gt;Unit, noinline noSuccess: ()-&gt;Unit, noinline error: (E)-&gt;Unit, noinline noError: ()-&gt;Unit)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Extension function to fold a Resource without builder.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="84725b9354a1662e4cac155dda8fdeea9e215f45">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ccf862f321a07eee012eff003f79b5773426b24c">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="061fb3f6c8e045832befae43060a53a59c4ba6b4">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="77a379bf7bb941e67d1b2f2a1ec5f511f59cb903">
+        <td class="sourcedoc-section section-signature">
+          <code>noinline loading: ()-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="1f1c8b0490adfd3ebddac4234abde6266c6c4544">
+        <td class="sourcedoc-section section-signature">
+          <code>noinline noLoading: ()-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="c43217d69f50f37666da8d9479e4c755af506de9">
+        <td class="sourcedoc-section section-signature">
+          <code>noinline success: (R)-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="6473517a08de2d906dacf2ba05533d6fb65c6e2d">
+        <td class="sourcedoc-section section-signature">
+          <code>noinline noSuccess: ()-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="bbf5e7e22663e9dca86fed6ee37e17b0cbf183f2">
+        <td class="sourcedoc-section section-signature">
+          <code>noinline error: (E)-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      <tr class="sourcedoc-section section-element" id="ed67e2c36e52dfb8680884488e3b65a1e3a44072">
+        <td class="sourcedoc-section section-signature">
+          <code>noinline noError: ()-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="ca820046a280ac384d92dadc4e2d2c23bd41fa81">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="12e741d3fd0297051d82cd0c9db5d3d0bb9e8550">
+      
+      <h3 class="sourcedoc-section element-name">ifLoading</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>inline fun &lt;R, E&gt; <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;.ifLoading(block: ()-&gt;Unit)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Extension function with a callback which is invoked if Resource is Loading.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="f240df3bfd2fa953ef16e489c97e4224b7a5c3ba">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ccf862f321a07eee012eff003f79b5773426b24c">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="213192afed24ab7c1f6574081e3d0f657b39c271">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="015b25bb14faae716e4b31cf1cb1affc1e56652f">
+        <td class="sourcedoc-section section-signature">
+          <code>block: ()-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="cca8b95e6f01b9fc3a4d4864aaf773b61af9412a">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="23677b99e4f4b501cfcace06f6e884c99885849c">
+      
+      <h3 class="sourcedoc-section element-name">ifNoLoading</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>inline fun &lt;R, E&gt; <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;.ifNoLoading(block: ()-&gt;Unit)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Extension function with a callback which is invoked if Resource is not Loading.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="eecaf50e917747bbb36bd9cba32daccbbb41f76f">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ccf862f321a07eee012eff003f79b5773426b24c">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="942ba7e1862318582553cb1ef8e6d0693c0b0ca1">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="015b25bb14faae716e4b31cf1cb1affc1e56652f">
+        <td class="sourcedoc-section section-signature">
+          <code>block: ()-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="ab2bff9ee406842bf3a7a376e2604dec0964a9f7">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="eb602e4b13503f681dadaa4bc98d1ab2ff18a8d9">
+      
+      <h3 class="sourcedoc-section element-name">ifSuccess</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>inline fun &lt;R, E&gt; <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;.ifSuccess(block: (R)-&gt;Unit)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Extension function with a callback which is invoked if Resource is Success and has data.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="d972afec57e807e5ce8b04fb200527bca1e04783">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ccf862f321a07eee012eff003f79b5773426b24c">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="4e6d1b974fe18389eab5f79ddb5a805859e1c8e8">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="c99c0a7174827349af8366caf6b68d3187b34d64">
+        <td class="sourcedoc-section section-signature">
+          <code>block: (R)-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="6de45be51515b6609af5e155cd393fee3653f7f2">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="848045d1441afca4fd032f0fcee5033c11353d0f">
+      
+      <h3 class="sourcedoc-section element-name">ifNoSuccess</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>inline fun &lt;R, E&gt; <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;.ifNoSuccess(block: ()-&gt;Unit)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Extension function with a callback which is invoked if Resource is not Success.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="9cb7296c5400c114fdfd7c8c9a1a9c9445563436">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ccf862f321a07eee012eff003f79b5773426b24c">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="eaf68302a8f38669c1bb2726f635d96e1fd12310">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="015b25bb14faae716e4b31cf1cb1affc1e56652f">
+        <td class="sourcedoc-section section-signature">
+          <code>block: ()-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="be479446eee1164c87c66b224c621b2c474f9f09">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="55519e915d4564ce7e74f116546484f74e1cc1ee">
+      
+      <h3 class="sourcedoc-section element-name">ifError</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>inline fun &lt;R, E&gt; <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;.ifError(block: (E)-&gt;Unit)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Extension function with a callback which is invoked if Resource is Error and has error data.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="a29e90229a37f65e5b143975671b8c7e45594ae7">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ccf862f321a07eee012eff003f79b5773426b24c">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="aea4078e2d8c68bf93a0e4993703dcf98924872c">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="44207a08afa34e83a0f281cb41c8578960505a9b">
+        <td class="sourcedoc-section section-signature">
+          <code>block: (E)-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="cb49b156fe64ae6122945480618db729badaefb8">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+    <div class="sourcedoc-section section-element" id="24ee39d9aeacb33f77b8b7e26e124ca7c0207f89">
+      
+      <h3 class="sourcedoc-section element-name">ifNoError</h3>
+      
+      <p class="sourcedoc-section section-signature">
+        <code>inline fun &lt;R, E&gt; <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;.ifNoError(block: ()-&gt;Unit)</code>
+      </p>
+      <div class="sourcedoc-section section-comments"><p>Extension function with a callback which is invoked if Resource is not Error.</p>
+</div>
+
+      
+      
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="220c572706dd8771e48b481ab8ade05281160a28">
+
+
+  <p class="sourcedoc-section section-name"><strong>Receiver</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="ccf862f321a07eee012eff003f79b5773426b24c">
+        <td class="sourcedoc-section section-signature">
+          <code><a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>&lt;R, E&gt;</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="deb0602ea06b0d87c7be9ca4b9fb02bee4418542">
+
+
+  <p class="sourcedoc-section section-name"><strong>Parameters</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="015b25bb14faae716e4b31cf1cb1affc1e56652f">
+        <td class="sourcedoc-section section-signature">
+          <code>block: ()-&gt;Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+          
+<div class="sourcedoc-section section-root section-level-3" id="8df109fe771277aadda9db0eb46075c0cd001cf6">
+
+
+  <p class="sourcedoc-section section-name"><strong>ReturnValue</strong></p>
+
+  <div class="table-container">
+    <table class="table is-fullwidth is-bordered">
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      
+      <tr class="sourcedoc-section section-element" id="f6b935ab337145efdeadda28cae18aa89a845e36">
+        <td class="sourcedoc-section section-signature">
+          <code>Unit</code>
+        </td>
+        <td class="sourcedoc-section section-comments content">
+        
+        </td>
+      </tr>
+      
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+        
+      
+    </div>
+  
+
+</div>
+
+</div>
+
+
+
+
+
+
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+                    </article>
+                </section>
+            
+        </div>
+        <hr>
+
+        <!-- Page Footer -->
+        <div class="inner">
+    <footer id="footer">
+        <div class="clearfix">
+            
+            
+        </div>
+    </footer>
+</div>
+
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+    <div class="inner">
+
+        <!-- Search -->
+        <section id="search" class="alt">
+            <form data-orchid-search="">
+                <input type="text" name="query" id="query" placeholder="Search"/>
+            </form>
+            <div class="box" id="search-results" data-orchid-search-results style="display: none;">
+                <b>Search Results</b>
+                <ul></ul>
+            </div>
+            <div class="box" id="search-progress" data-orchid-search-progress style="display: none;">
+                <div class="loader">Loading...</div>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <nav id="siteNav" class="menu">
+            <header class="major">
+                <h2>Resource</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    
+    <li>
+        <a class="subheader">API Docs</a>
+    </li>
+    
+
+                
+                    
+    <li>
+        <span class="opener">Classes</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource/error">Error</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource/folder">Folder</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource/loading">Loading</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource">Resource</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource/success">Success</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Packages</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource">com.javiersc.resources.resource</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/extensions">com.javiersc.resources.resource.extensions</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+        <nav class="menu">
+            <header class="major">
+                <h2>Resource</h2>
+            </header>
+            <ul class="top-level">
+                
+                    
+    <li>
+        <span class="opener">Fields</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#4bac72d6ca0044c8aacf427d7dee09718c67c87e">val isLoading: Boolean</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#511ea175889974ad1cf919cbf28fb35ba63b7f2e">val isSuccess: Boolean</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#181cd1e8cc2c1a47cdaec3e58e753ef090926c1a">val isError: Boolean</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+                    
+    <li>
+        <span class="opener">Extensions</span>
+        <ul>
+        
+            
+    
+    <li>
+        <a href="#47cde63ff8b0732fc57ae00f2e76000080bd76fa">inline fun &lt;R, R2, E, E2&gt; Resource&lt;R, E&gt;.map(data: (R)-&gt;R2, error: (E)-&gt;E2): Resource&lt;R2, E2&gt;</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#c21d621d9cdf79634fc36dd50d5b9cdfadc80a8d">inline fun &lt;R, E&gt; Resource&lt;R, E&gt;.folder(block: Folder&lt;R, E&gt;.()-&gt;Unit)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#02408e30b7f0aa98899606aa2a54d6b5690657d8">inline fun &lt;R, E&gt; Resource&lt;R, E&gt;.fold(noinline loading: ()-&gt;Unit, noinline noLoading: ()-&gt;Unit, noinline success: (R)-&gt;Unit, noinline noSuccess: ()-&gt;Unit, noinline error: (E)-&gt;Unit, noinline noError: ()-&gt;Unit)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#12e741d3fd0297051d82cd0c9db5d3d0bb9e8550">inline fun &lt;R, E&gt; Resource&lt;R, E&gt;.ifLoading(block: ()-&gt;Unit)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#23677b99e4f4b501cfcace06f6e884c99885849c">inline fun &lt;R, E&gt; Resource&lt;R, E&gt;.ifNoLoading(block: ()-&gt;Unit)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#eb602e4b13503f681dadaa4bc98d1ab2ff18a8d9">inline fun &lt;R, E&gt; Resource&lt;R, E&gt;.ifSuccess(block: (R)-&gt;Unit)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#848045d1441afca4fd032f0fcee5033c11353d0f">inline fun &lt;R, E&gt; Resource&lt;R, E&gt;.ifNoSuccess(block: ()-&gt;Unit)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#55519e915d4564ce7e74f116546484f74e1cc1ee">inline fun &lt;R, E&gt; Resource&lt;R, E&gt;.ifError(block: (E)-&gt;Unit)</a>
+    </li>
+    
+
+        
+            
+    
+    <li>
+        <a href="#24ee39d9aeacb33f77b8b7e26e124ca7c0207f89">inline fun &lt;R, E&gt; Resource&lt;R, E&gt;.ifNoError(block: ()-&gt;Unit)</a>
+    </li>
+    
+
+        
+        </ul>
+    </li>
+
+                
+            </ul>
+        </nav>
+        
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="text-center">Created with <a href="https://orchid.run">Orchid</a></p>
+        </footer>
+
+    </div>
+</div>
+</div>
+
+<!-- start:inject scripts -->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+<script  src="http://resource.javiersc.com/Editorial/b939398b/assets/js/editorial_util.js"></script>
+<script  src="http://resource.javiersc.com/Editorial/b939398b/assets/js/editorial_main.js"></script>
+<script  src="http://resource.javiersc.com/Editorial/b939398b/assets/js/editorial_orchidCustomizations.js"></script>
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script  src="https://unpkg.com/lunr/lunr.js"></script>
+<script  src="http://resource.javiersc.com/assets/js/orchidSearch.js"></script>
+<script data-selector="pre code[class='language-run-kotlin']" src="https://unpkg.com/kotlin-playground@1"></script>
+<!-- end:inject scripts -->
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "ownKey": "home",
+  "ownPages": [
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "http://resource.javiersc.com",
+        "fileName": "",
+        "extension": "html",
+        "usePrettyUrl": true,
+        "link": "http://resource.javiersc.com"
+      },
+      "description": "",
+      "title": "Home",
+      "content": ""
+    },
+    {
+      "reference": {
+        "path": "",
+        "baseUrl": "http://resource.javiersc.com",
+        "fileName": "404",
+        "extension": "html",
+        "usePrettyUrl": false,
+        "link": "http://resource.javiersc.com/404.html"
+      },
+      "description": "",
+      "title": "Not Found",
+      "content": ""
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://resource.javiersc.com/kotlindoc/resource</loc>
+        <lastmod>2020-05-10</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource</loc>
+        <lastmod>2020-05-10</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/extensions</loc>
+        <lastmod>2020-05-10</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource</loc>
+        <lastmod>2020-05-10</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource/folder</loc>
+        <lastmod>2020-05-10</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource/loading</loc>
+        <lastmod>2020-05-10</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource/error</loc>
+        <lastmod>2020-05-10</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    <url>
+        <loc>http://resource.javiersc.com/kotlindoc/resource/com/javiersc/resources/resource/resource/success</loc>
+        <lastmod>2020-05-10</lastmod>
+        <priority>0.0</priority>
+        
+    </url>
+    
+</urlset>
